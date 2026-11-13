@@ -13,9 +13,9 @@ class TestCalculator(unittest.TestCase):
     self.assertEqual(add(20,20),40)
   def test_subtract(self):
     self.assertEqual(subtract(20,10),10)
-
   def test_multiply(self):
      self.assertEqual(multiply(9,4),36)
+    
 if __name__ =="__main__":
   print("Student calculator application")
   print("Addition:",add(20,20))
